@@ -1,0 +1,130 @@
+/* CreateTripForm.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #f5fbe5, #dff0d8);
+  font-family: Arial, sans-serif;
+}
+
+.create-trip-form {
+  background: white;
+  padding: 60px;
+  width: 700px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ff4d4f;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 15px;
+}
+
+nav .active {
+  background: #ffc107;
+  border-radius: 20px;
+  padding: 8px 20px;
+  color: white;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 28px;
+  color: #333;
+  margin-top: 25px;
+}
+
+p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.form-group {
+  margin: 25px 0;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.form-group input[type="date"] {
+  width: 48%;
+  margin-right: 4%;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.cancel-btn {
+  background: #ddd;
+  color: #333;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.submit-btn {
+  background: #4caf50;
+  color: white;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+}
